@@ -2,7 +2,7 @@ import { Select, Option } from "@material-tailwind/react";
 
 export default function RoundTrip(){
     return(
-        <div className="w-30">
+        <div className="w-2">
             <Select className="text-xs " label="Round Trip" color='blue-gray' variant="standard">
                 <Option>One-Way</Option>
                 <Option>Round Trip</Option>

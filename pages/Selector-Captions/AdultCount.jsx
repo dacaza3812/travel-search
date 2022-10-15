@@ -3,7 +3,7 @@ import { Typography } from "@material-tailwind/react";
 
 export default function AdultCount(){
     return(
-        <div className="w-30">
+        <div className="w-2">
             <Select color='blue-gray' label="Adults" variant="standard">
                 <Option>Adults <spam>18-64</spam></Option>
                 <Option>Students over 18</Option>
