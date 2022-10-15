@@ -5,15 +5,15 @@ import DataPicker from './TravelOptions/DataPicker'
 
 export default function TravelOption(){
     return(
-        <div className="px-4 mt-20 flex flex-row w-full">
+        <div className=" mt-20 flex flex-row w-full">
         {/* From */}
 
-            <div>
+            <div className="mr-5">
             <SelectorCountry text='Select Country'/>
             </div>
 
         {/* Button change */}
-            <div className="mr-5">
+            <div className=" mr-5">
                 <ButtonArrow/>
             </div>
 
